@@ -84,3 +84,22 @@ body {
 }
 
 /*--------------------------- banner end ------------------ */
+
+/* -----------------------main section article start ----------------- */
+.articles-container {
+  width: 70%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.article {
+  min-height: 450px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 5px;
+}
+.article-img img {
+  width: 100%;
+}
+
+/* -------------------main section artcle end --------------------- */
